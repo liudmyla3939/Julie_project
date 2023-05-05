@@ -1,0 +1,351 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 1920px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+    
+}
+/* HEADER */
+header{
+    width: 1170px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 375px;
+}
+header nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+header a{
+    text-decoration: none;
+    color: #101010;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+header p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #A52424;
+}
+/* TITLE */
+h1{
+    color: #232323;
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    /* margin: 50px 0; */
+}
+h2{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.05em;
+    color: #232323;
+
+}
+h3{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: #A52424;
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    color: #232323;
+}
+.title{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 375px;
+}
+.subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.subtitle p{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;   
+    letter-spacing: 0.05em;
+    color: #101010;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.btn{
+    width: 336px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+        /* display: flex;
+        align-items: center;
+        text-align: center; */
+    color: #A52424;
+    border: 1px solid #A52424;
+
+}
+/* ABOUT USER*/
+.about-user{
+    display: flex;
+    justify-content: center;
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 344px;
+    height: 560px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.1);
+    margin-right: 100px;
+}
+.about-me img{
+    margin: 40px auto;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+.user-descr{
+    padding-top: 100px;
+}
+.shift{
+    width: 568px;
+    height: 330px;
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.1);
+    margin-left: 150px;
+}
+.shift img{
+    margin: 40px auto;
+    position: relative;
+    right: 150px;
+    bottom: 10px;
+}  
+
+
+/* PORTFOLIO */
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+h4{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: #101010;
+}
+.card-btn{
+    /* width: 202px;
+    height: 60px; */
+    padding: 15px 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #A52424;
+
+    color: #A52424;
+}
+
+/* PRICE */
+.container h2{
+    margin-bottom: 150px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-price{
+    height: 470px;
+    width: 510px;  
+    /* padding: 20px; */
+    
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.1);
+
+}
+.card-price-btn{
+    height: 60px;
+    margin: 0;
+    padding: 0 40px;
+    font-weight: 500;
+    font-size: 18px;
+    background: #FFFFFF;
+    border: 1px solid #A52424;
+    color: #A52424;
+    
+}
+.card-price h3{
+    text-align: center;
+}
+.card-price img{
+    text-align: center;
+    width: 290px;
+    /* position: relative;
+    top: -100px;
+    left: 15px; */
+}
+.seccion{
+    width: 430px;
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+    
+}
+.seccion-description{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.seccion-description p{
+    font-size: 18px;
+    line-height: 10px;
+    color: #232323;
+    margin: 10px 0;
+    
+}
+.seccion-conditions{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.seccion-conditions p{
+    font-size: 18px;
+    line-height: 10px;
+    color: #232323;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.seccion-order{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+    width: 430px;
+    height: 86px;
+}
+.seccion-order p{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 20px;
+    color: #A52424;
+}
+
+/* BOOKING */
+
+.booking{
+    /* width: 1170px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.booking .register1{
+    width: 285px;
+    height: 492px;
+}
+.booking .register2{
+    width: 330px;
+    height: 585px;
+    position: relative;
+    right: 25px;
+}
+.input{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.booking-photo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+textarea {
+    width: 100%;
+    height: 220px;
+    /* background: lightgrey; */
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.form{
+    width: 100%;
+    height: 60px;
+    border: 1px solid lightgrey;
+    margin: 20px 0;
+    font-size: 18px;    
+    color: lightgrey;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    padding-left: 20px;
+}
+.booking-btn{
+    width: 100%;
+    height: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* padding: 10px 40px; */
+    color: #A52424;
+    border: 1px solid #A52424;
+    margin-bottom: 50px;
+}
+
+/* FOOTER */
+footer{
+    width: 1170px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 375px;
+    
+}
+footer nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    text-decoration: none;
+    color: #101010;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+footer p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #A52424;
+}
